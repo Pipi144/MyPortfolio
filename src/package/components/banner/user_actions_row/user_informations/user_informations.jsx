@@ -44,7 +44,7 @@ export const UserInformations = () => {
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <Avatar src={data.basics?.picture} />
+            <Avatar src={require('../../../../assets/images/profile.png')} />
             <Column classes={{ container: classes.textColumn }}>
                 <Typography
                     classes={{
