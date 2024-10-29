@@ -1,6 +1,5 @@
 import React, { useCallback, useContext, useMemo } from 'react';
 
-import { ProfileCard } from '../../../commons/profile_card/profile_card';
 import { SocialEditDialog } from './social_edit_dialog/social_edit_dialog';
 
 import { socialValidationSchema, showSocialCard } from './data/validator';
@@ -10,6 +9,7 @@ import { CardSideProps, CommonCardsProps } from '../../types/card_props';
 import { mapProfilesFromJsonResume, mapProfilesToJsonResume, SocialCardData } from './data/mapping';
 import { SocialCardContent } from './social_card_back/social';
 import { useOptions } from '../../../hooks/use_options';
+import { ProfileCard } from '../../../commons/profile_card/profile_card';
 
 export const SocialCard = ({ variant, side }: CommonCardsProps) => {
     const [mode] = useMode();

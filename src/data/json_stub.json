@@ -1,70 +1,45 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
+        "name": "Peter Truong",
+        "label": "Frontend Developer",
         "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
+        "email": "petertruong144@gmail.com",
+        "phone": "+61 468 345 457",
         "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "summary": "Frontend developer with a focus on creating responsive, high-performance web and mobile apps using React and React Native. Passionate about intuitive, visually engaging user experiences that make an impact.",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "757 Princess Highway",
+            "postalCode": "VIC 3171",
+            "city": "Springvale",
+            "countryCode": "AUS",
+            "region": "Melbourne"
         },
         "profiles": [
-            {
-                "network": "twitter",
-                "username": "@john"
-            },
             {
                 "network": "Portfolio",
                 "url": "https://myawesome.portfolio.rocket.fr"
             },
             {
-                "network": "codingame",
-                "username": "ed3ee82f9630e99db32dec093b2ca07a0368002"
-            },
-            {
                 "network": "github",
-                "username": "clementdevos"
+                "username": "Pipi144"
             },
             {
                 "network": "linkedin",
-                "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/"
+                "url": "www.linkedin.com/in/truong-peter-8875a6268"
             }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Doxle",
+            "position": "Frontend Developer",
+            "website": "http://doxle.com",
+            "startDate": "2022-09-01",
+            "summary": "As a frontend developer on the Doxle team, I collaborate closely with cross-functional teams to translate business goals into seamless, user-centric experiences for web and mobile. I lead frontend development for key projects like Doxle Projects and Doxle Draw, utilizing TypeScript, React, React Query, and PWA to build scalable, high-performance applications. My work includes optimizing APIs, implementing reusable design patterns, and converting the Doxle Projects web app into a React Native mobile version tailored for optimal UX. Additionally, I contributed to customizing CVAT for efficient data preparation, reducing reliance on third-party tools and supporting budget optimization. I also participate in mentoring interns through code reviews and hands-on guidance.",
+            "location": "Victoria, Australia",
             "highlights": ["Started the company"]
         }
+       
     ],
     "volunteer": [
         {
@@ -78,118 +53,104 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
+            "institution": "AIT",
+            "area": "Mobile Application",
+            "studyType": "Bachelor Degree",
+            "startDate": "2017-09-01",
+            "endDate": "2020-05-01",
             "gpa": "4.0",
             "courses": ["DB1101 - Basic SQL"]
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
+            "institution": "University of Economics and Laws",
+            "area": "Economics",
+            "studyType": "Bachelor Degree",
+            "startDate": "2011-10-01",
+            "endDate": "2015-10-01",
+            "gpa": "3.3",
             "courses": ["DB1101 - Basic SQL"]
         }
     ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
+   
     "skills": [
+        
+        {
+            "name": "React Native",
+            "level": "Master",
+            "value": 85,
+            "keywords": ["HTML", "CSS", "Typescript"]
+        },
         {
             "name": "React",
             "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 85,
+            "keywords": ["HTML", "CSS", "Typescript"]
         },
         {
-            "name": "Angular",
+            "name": "React Query",
             "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 85,
+            "keywords": ["HTML", "CSS", "Typescript"]
         },
         {
-            "name": "NodeJS",
+            "name": "Material Ui",
             "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 85,
+            "keywords": ["HTML", "CSS", "Typescript"]
         },
         {
-            "name": "Firebase",
+            "name": "styled-components",
             "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 85,
+            "keywords": ["HTML", "CSS", "Typescript"]
         },
         {
-            "name": "Gmail",
+            "name": "Tailwind CSS",
             "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 75,
+            "keywords": ["HTML", "CSS", "Typescript"]
         }
+        
     ],
     "languages": [
         {
             "language": "English",
-            "value": 100,
-            "fluency": "Native speaker"
+            "value": 80,
+            "fluency": "Fluent speaker"
         },
         {
-            "language": "Italien",
-            "value": 15,
+            "language": "Vietnamese",
+            "value": 100,
             "fluency": "Native speaker"
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
+            "name": "Ben Scicluna",
             "reference": "Reference..."
         }
     ],
     "projects": [],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "visaSponsorship": false,
+            "personalDescription": "I am a frontend developer with a focus on building responsive, high-performance web and mobile applications that provide intuitive, visually engaging user experiences. My core expertise lies in React and React Native, where I leverage my knowledge to create seamless, user-centric solutions across devices. With tools like React Query, Tailwind CSS, and Styled Components, I ensure efficient state management, styling consistency, and optimized rendering for both web and mobile platforms. Passionate about enhancing usability and visual appeal, I pay close attention to performance and scalability while delivering impactful user interfaces that align with modern frontend best practices."
         },
         "dreamJob": {
             "locations": [
                 {
-                    "name": "Valenciennes, France"
+                    "name": "Melbourne, Australia"
                 },
                 {
-                    "name": "Lille, France"
+                    "name": "Sydney, Australia"
                 },
                 {
-                    "name": "Paris,France"
+                    "name": "USA    "
                 }
             ],
             "remoteFrequency": {
                 "frequency": "fullTime",
-                "daysPerWeek": 2
+                "daysPerWeek": 5
             }
         },
         "currentJob": {
@@ -199,20 +160,20 @@
             }
         },
         "education": {
-            "studiesLevel": null
+            "studiesLevel": "Bachelor"
         },
         "work": {
-            "contractTypes": ["permanent", "freelance", "internship"],
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "contractTypes": ["permanent", "freelance"],
+            "codingReason": "I’ve always dreamt of becoming a developer, and my journey into coding began with a surprising twist. While learning music, I searched YouTube for a C# chord tutorial but stumbled upon C# the programming language instead. Intrigued, I explored further and was instantly hooked by the possibilities of code. This accidental discovery was the catalyst for a big decision: I left my career in economics in Vietnam to pursue my dream of becoming a developer in Australia. Today, I’m turning that passion into impact, creating high-performance, user-centered applications with React and React Native.",
             "searchState": "activelySearching",
-            "experienceYears": 0,
+            "experienceYears": 2,
             "codeExperienceYears": 2,
             "otherExperienceYears": 3
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/embed/playlist/6oN64CP6hhlKgpYzW33pD4?utm_source=generator&theme=0"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "React, React Native, Deep Learning"
     },
     "resumeCustomization": {
         "imageHeader": {

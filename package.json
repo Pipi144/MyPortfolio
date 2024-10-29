@@ -23,7 +23,7 @@
         "url": "git+https://github.com/welovedevs/react-ultimate-resume.git"
     },
     "author": "WeLoveDevs.com",
-    "license": "AGPLv3",
+    "license": "MIT",
     "peerDependencies": {
         "formik": "^2.1.2",
         "react": "18.2.0",

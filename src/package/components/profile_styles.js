@@ -1,3 +1,4 @@
+import backgroundImage from '../assets/images/wallpaper.png';
 export const styles = (theme) => ({
     '@global': {
         '*': {
@@ -33,6 +34,10 @@ export const styles = (theme) => ({
         flexDirection: 'column',
         alignItems: 'center',
         margin: 0,
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
         padding: 0,
         ...['fontFamily', 'backgroundColor', 'color'].reduce(
             (acc, key) => ({

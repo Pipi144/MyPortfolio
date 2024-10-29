@@ -1,8 +1,7 @@
 import React, { useMemo } from 'react';
 
-import { useTheme } from "@mui/styles";
+import { useTheme } from '@mui/styles';
 import makeStyles from '@mui/styles/makeStyles';
-
 
 import { BasicsCard } from './cards_types/basics/basics_card';
 import { ProjectsCard } from './cards_types/projects/projects_card';

@@ -27,11 +27,10 @@ import { SIDES } from './profile_card_side/side';
 
 import { styles } from './profile_card_styles';
 import { OPACITY_TRANSITIONS } from '../../../utils/framer_motion/common_transitions/opacity_transitions';
-
 const useStyles = makeStyles(styles);
 
 export const ProfileCardContext = createContext({});
-
+const AnimatedCard = motion(Card);
 export const ProfileCard = ({
     id = null,
     children = null,
@@ -162,11 +161,27 @@ export const ProfileCard = ({
                 </ProfileCardContext.Provider>
             )}
             <ProfileCardIncompletePopper open={isComplete !== true} anchorElement={containerReference.current} />
-            <Card
+            <AnimatedCard
                 containerRef={containerReference}
                 classes={{ container: classes.container }}
                 id={id}
-                elevation={1}
+                variants={{
+                    initial: {
+                        borderRadius: 8,
+
+                        borderWidth: 1,
+                        borderStyle: 'solid',
+                        borderColor: 'rgba(200, 200, 180, 0.5)'
+                    },
+                    hovering: {
+                        borderRadius: 20,
+                        borderColor: '#c8c8b4',
+                        borderWidth: 3
+                    }
+                }}
+                initial="initial"
+                whileHover="hovering"
+                elevation={4}
                 {...(!isSmall &&
                     !sideProps && {
                         onMouseEnter: handleMouseEnter,
@@ -194,7 +209,7 @@ export const ProfileCard = ({
                         )}
                     </AnimatePresence>
                 </ProfileCardContext.Provider>
-            </Card>
+            </AnimatedCard>
         </>
     );
 };

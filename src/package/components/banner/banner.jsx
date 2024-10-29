@@ -44,7 +44,7 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
                 {imageInformations && (
                     <motion.img
                         className={classes.image}
-                        src={imageInformations?.url}
+                        src={require('../../assets/images/topbanner.png')}
                         alt={imageInformations?.alt}
                         variants={OPACITY_TRANSITIONS}
                         transition={{ duration: 1 }}

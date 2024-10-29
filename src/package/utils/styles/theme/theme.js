@@ -30,7 +30,7 @@ export const DEFAULT_THEME = {
         cards: {
             height: 470,
             width: 470,
-            borderRadius: 20,
+            // borderRadius: 20,
             default: {
                 backgroundColor: 'dark',
                 color: 'light',
