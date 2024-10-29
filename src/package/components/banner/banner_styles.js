@@ -36,6 +36,14 @@ export const styles = (theme) => {
             [QUERY_BETWEEN_MEDIUM_SMALL]: {
                 height: [550, '!important'],
                 padding: [spacing * 4, spacing * 2.5]
+            },
+            transition: 'all 0.3s ease',
+
+            boxShadow: '0 8px 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 95, 178, 0.4)',
+            '&:hover': {
+                transform: 'translateY(5px) scale(0.95)',
+                borderRadius: 20,
+                boxShadow: '0 16px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 95, 178, 0.6)'
             }
         },
         absolutePositioned: {
