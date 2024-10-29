@@ -43,7 +43,7 @@ const codinGameValidator = (formatMessage: IntlFormatters['formatMessage']) =>
             .notRequired()
     });
 
-export const showSocialCard = (data: SocialCardData, showContactInformations: boolean) => {
+export const showSocialCard = (data: SocialCardData, showContactInformations: boolean | Object) => {
     const profiles = data?.profiles || {};
     const { linkedin, twitter, codingame, github, ...other } = profiles;
     const hasOther = Object.values(other).some(({ url }) => !!url);

@@ -143,7 +143,7 @@ const TitleContent = <T extends { [key: string]: any }>({
     );
 };
 
-interface ContentProps<T extends { [key: string]: any }> {
+interface ContentProps<T> {
     onClose: DialogProps['onClose'];
     handleSubmit: () => void;
     setFieldValue: (fieldName: keyof T, value: any) => void;
@@ -170,7 +170,7 @@ const Content = <T extends { [key: string]: any }>({
 }: ContentProps<T>) => {
     const handleValueChange = useCallback(
         (name: keyof T) => (value: any) => {
-            console.debug(`[Edit Dialog] Setting field ${name} to value.`, { value });
+            // console.debug(`[Edit Dialog] Setting field ${name} to value.`, { value });
             return setFieldValue(name, value);
         },
         [setFieldValue]

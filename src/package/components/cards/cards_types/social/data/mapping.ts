@@ -47,7 +47,7 @@ const getId = (network: string, id: string) => {
 };
 export const mapProfilesFromJsonResume = (
     jsonResume: DeveloperResume,
-    showContactInformations: boolean
+    showContactInformations: boolean | Object
 ): SocialCardData => ({
     profiles: (jsonResume?.basics?.profiles ?? []).reduce((acc, profile, index) => {
         const id = profile.id || uuid();
