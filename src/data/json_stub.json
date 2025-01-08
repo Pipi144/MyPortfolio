@@ -5,8 +5,8 @@
         "picture": "",
         "email": "petertruong144@gmail.com",
         "phone": "+61 468 345 457",
-        "website": "http://johndoe.com",
-        "summary": "Frontend developer with a focus on creating responsive, high-performance web and mobile apps using React and React Native. Passionate about intuitive, visually engaging user experiences that make an impact.",
+        "website": "https://pipi-portfolio-qsilik9x3-pipi144s-projects.vercel.app/",
+        "summary": "Specializing in building responsive, high-performance web and mobile applications using React, React Native, and TypeScript. Experienced in creating intuitive, visually engaging user interfaces with tools like Tailwind CSS, MUI, and Styled Components, ensuring seamless user experiences. Skilled in integrating modern front-end technologies with .NET backends and optimizing applications for scalability and performance. Passionate about crafting impactful solutions that enhance user satisfaction.",
         "location": {
             "address": "757 Princess Highway",
             "postalCode": "VIC 3171",
@@ -39,7 +39,6 @@
             "location": "Victoria, Australia",
             "highlights": ["Started the company"]
         }
-       
     ],
     "volunteer": [
         {
@@ -71,9 +70,8 @@
             "courses": ["DB1101 - Basic SQL"]
         }
     ],
-   
+
     "skills": [
-        
         {
             "name": "React Native",
             "level": "Master",
@@ -82,6 +80,18 @@
         },
         {
             "name": "React",
+            "level": "Master",
+            "value": 85,
+            "keywords": ["HTML", "CSS", "Typescript"]
+        },
+        {
+            "name": ".NET",
+            "level": "Master",
+            "value": 85,
+            "keywords": ["C#", "SQL"]
+        },
+        {
+            "name": "Nextjs",
             "level": "Master",
             "value": 85,
             "keywords": ["HTML", "CSS", "Typescript"]
@@ -110,7 +120,6 @@
             "value": 75,
             "keywords": ["HTML", "CSS", "Typescript"]
         }
-        
     ],
     "languages": [
         {
@@ -173,7 +182,7 @@
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/6oN64CP6hhlKgpYzW33pD4?utm_source=generator&theme=0"
         },
-        "interestedBy": "React, React Native, Deep Learning"
+        "interestedBy": "React, React Native, .NET, Deep Learning"
     },
     "resumeCustomization": {
         "imageHeader": {
